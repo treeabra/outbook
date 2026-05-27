@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forthcoming Covers Gallery</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+      padding: 20px;
+    }
+
+    header {
+      max-width: 1400px;
+      margin: 0 auto 24px;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 16px;
+      color: #1a1a1a;
+    }
+
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+
+    .filter-label {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #666;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .genre-filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .genre-btn {
+      padding: 6px 14px;
+      border: 1px solid #ddd;
+      border-radius: 20px;
+      background: white;
+      font-size: 0.85rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .genre-btn:hover {
+      border-color: #666;
+    }
+
+    .genre-btn.active {
+      background: #333;
+      color: white;
+      border-color: #333;
+    }
+
+    .publisher-filter {
+      padding: 6px 12px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      background: white;
+    }
+
+    .count {
+      font-size: 0.9rem;
+      color: #888;
+      margin-left: auto;
+    }
+
+    .gallery {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 24px;
+    }
+
+    .book-card {
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      transition: transform 0.2s, box-shadow 0.2s;
+      cursor: pointer;
+    }
+
+    .book-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    }
+
+    .book-card img {
+      width: 100%;
+      aspect-ratio: 2/3;
+      object-fit: cover;
+      display: block;
+    }
+
+
+
+    @media (max-width: 600px) {
+      .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        gap: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Forthcoming Covers</h1>
+    <div class="filters">
+      <span class="filter-label">Genre:</span>
+      <div class="genre-filters">
+        <button class="genre-btn active" data-genre="all">All</button>
+        <button class="genre-btn" data-genre="nonfiction">Nonfiction</button>
+        <button class="genre-btn" data-genre="literary">Literary &amp; Historical Fiction</button>
+        <button class="genre-btn" data-genre="translation">Translation, Poetry &amp; Short Stories</button>
+        <button class="genre-btn" data-genre="scifi">Science Fiction &amp; Fantasy</button>
+        <button class="genre-btn" data-genre="thriller">Thriller &amp; Mystery</button>
+        <button class="genre-btn" data-genre="romance">Romance, YA &amp; Graphic Novel</button>
+      </div>
+    </div>
+    <div class="filters">
+      <span class="filter-label">Publisher:</span>
+      <select class="publisher-filter" id="publisherFilter">
+        <option value="all">All Publishers</option>
+        <option value="graywolf">Graywolf Press</option>
+        <option value="milkweed">Milkweed Editions</option>
+        <option value="twodollar">Two Dollar Radio</option>
+        <option value="transit">Transit Books</option>
+        <option value="coffeehouse">Coffee House Press</option>
+        <option value="groveatlantic">Grove Atlantic</option>
+        <option value="fsg">Farrar, Straus &amp; Giroux</option>
+        <option value="knopf">Knopf Doubleday</option>
+      </select>
+      <span class="count" id="bookCount">Showing 24 covers</span>
+    </div>
+  </header>
+
+  <div class="gallery" id="gallery"></div>
+
+  <script>
+    // Sample data to simulate the gallery
+    const sampleBooks = [
+      { title: "The Familiar Dark", publisher: "Graywolf Press", genre: "literary", color: "#2c3e50" },
+      { title: "Whale Fall", publisher: "Milkweed Editions", genre: "literary", color: "#1a5276" },
+      { title: "The Great Reclamation", publisher: "Transit Books", genre: "translation", color: "#6c3483" },
+      { title: "Memorial Drive", publisher: "Graywolf Press", genre: "nonfiction", color: "#1e8449" },
+      { title: "Beautyland", publisher: "Two Dollar Radio", genre: "scifi", color: "#d35400" },
+      { title: "The Coin", publisher: "Coffee House Press", genre: "literary", color: "#2e4053" },
+      { title: "North Woods", publisher: "Farrar, Straus & Giroux", genre: "literary", color: "#7d3c98" },
+      { title: "The Bee Sting", publisher: "Knopf Doubleday", genre: "literary", color: "#1b4f72" },
+      { title: "Birnam Wood", publisher: "Grove Atlantic", genre: "thriller", color: "#283747" },
+      { title: "The Vaster Wilds", publisher: "Farrar, Straus & Giroux", genre: "literary", color: "#4a235a" },
+      { title: "Holly", publisher: "Knopf Doubleday", genre: "thriller", color: "#641e16" },
+      { title: "The Heaven & Earth Grocery Store", publisher: "Grove Atlantic", genre: "literary", color: "#0e6655" },
+      { title: "Demon Copperhead", publisher: "Knopf Doubleday", genre: "literary", color: "#784212" },
+      { title: "The Covenant of Water", publisher: "Grove Atlantic", genre: "literary", color: "#1b2631" },
+      { title: "Yellowface", publisher: "Milkweed Editions", genre: "literary", color: "#f1c40f" },
+      { title: "The Wager", publisher: "Knopf Doubleday", genre: "nonfiction", color: "#2c3e50" },
+      { title: "All the Light We Cannot See", publisher: "Transit Books", genre: "translation", color: "#154360" },
+      { title: "Tomorrow, and Tomorrow", publisher: "Graywolf Press", genre: "literary", color: "#512e5f" },
+      { title: "Lessons in Chemistry", publisher: "Coffee House Press", genre: "literary", color: "#0b5345" },
+      { title: "The Invisible Life of Addie LaRue", publisher: "Two Dollar Radio", genre: "scifi", color: "#4a235a" },
+      { title: "Sea of Tranquility", publisher: "Knopf Doubleday", genre: "scifi", color: "#1a5276" },
+      { title: "Trust", publisher: "Farrar, Straus & Giroux", genre: "literary", color: "#7e5109" },
+      { title: "The Personal Librarian", publisher: "Grove Atlantic", genre: "nonfiction", color: "#6e2c00" },
+      { title: "Klara and the Sun", publisher: "Knopf Doubleday", genre: "literary", color: "#f39c12" },
+    ];
+
+    function renderGallery(books) {
+      const gallery = document.getElementById('gallery');
+      gallery.innerHTML = '';
+      books.forEach(book => {
+        const card = document.createElement('div');
+        card.className = 'book-card';
+        card.title = `Click to download hi-res cover of "${book.title}"`;
+        card.innerHTML = `
+          <div style="width:100%; aspect-ratio:2/3; background:${book.color}; display:flex; align-items:center; justify-content:center; padding:20px;">
+            <span style="color:white; font-size:0.9rem; text-align:center; font-weight:500; line-height:1.4;">${book.title}</span>
+          </div>
+
+        `;
+        card.addEventListener('click', () => {
+          alert(`This would download:\n${book.publisher.toLowerCase().replace(/[^a-z0-9]+/g, '-')}_${book.title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}.jpg`);
+        });
+        gallery.appendChild(card);
+      });
+      document.getElementById('bookCount').textContent = `Showing ${books.length} covers`;
+    }
+
+    // Genre filter
+    document.querySelectorAll('.genre-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.genre-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        filterBooks();
+      });
+    });
+
+    // Publisher filter
+    document.getElementById('publisherFilter').addEventListener('change', filterBooks);
+
+    function filterBooks() {
+      const genre = document.querySelector('.genre-btn.active').dataset.genre;
+      const publisher = document.getElementById('publisherFilter').value;
+      
+      let filtered = sampleBooks;
+      if (genre !== 'all') {
+        filtered = filtered.filter(b => b.genre === genre);
+      }
+      if (publisher !== 'all') {
+        filtered = filtered.filter(b => b.publisher.toLowerCase().replace(/[^a-z0-9]+/g, '') .includes(publisher));
+      }
+      renderGallery(filtered);
+    }
+
+    // Initial render
+    renderGallery(sampleBooks);
+  </script>
+</body>
+</html>

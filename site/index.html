@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OUTBOOK</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="gallery-header">
+    <h1>OUTBOOK</h1>
+    <div class="controls">
+      <div class="genre-filters" role="group" aria-label="Filter by genre">
+        <button class="genre-btn active" data-genre="all">All</button>
+        <button class="genre-btn" data-genre="Nonfiction">Nonfiction</button>
+        <button class="genre-btn" data-genre="Literary & Historical Fiction">Literary &amp; Historical Fiction</button>
+        <button class="genre-btn" data-genre="Translation, Poetry & Short Stories">Translation, Poetry &amp; Short Stories</button>
+        <button class="genre-btn" data-genre="Science Fiction & Fantasy">Science Fiction &amp; Fantasy</button>
+        <button class="genre-btn" data-genre="Thriller & Mystery">Thriller &amp; Mystery</button>
+        <button class="genre-btn" data-genre="Romance, Young Adult & Graphic Novel">Romance, YA &amp; Graphic Novel</button>
+      </div>
+      <div class="secondary-controls">
+        <select id="publisher-filter" aria-label="Filter by publisher">
+          <option value="all">All Publishers</option>
+        </select>
+        <span id="book-count" class="book-count" aria-live="polite">0 covers</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="gallery" class="gallery-grid" role="list" aria-label="Book covers gallery">
+    </div>
+    <div id="loading" class="loading" aria-hidden="true">Loading...</div>
+  </main>
+
+  <noscript>
+    <style>
+      .gallery-header .controls { display: none; }
+      #loading { display: none; }
+    </style>
+    <p class="noscript-msg">This gallery requires JavaScript for filtering and lazy loading. All covers are shown below.</p>
+    <div class="gallery-grid" id="noscript-gallery"></div>
+  </noscript>
+
+  <script src="gallery.js"></script>
+</body>
+</html>

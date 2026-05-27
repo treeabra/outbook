@@ -1,0 +1,554 @@
+# publishers.yaml - Configuration for scraping forthcoming book covers
+#
+# Each publisher entry defines:
+#   name          - Display name of the publisher
+#   url           - URL to the forthcoming/coming-soon page
+#   navigation    - How to traverse the page: "static" | "paginated" | "carousel" | "infinite-scroll" | "multi-click"
+#   navigation_options - Extra options for the navigation strategy (selectors, max pages, etc.)
+#   book_selector - CSS selector for each book entry on the page
+#   title_selector - CSS selector for the book title within a book entry
+#   cover_selector - CSS selector for the cover image within a book entry
+#   hires_source  - Where to get hi-res images: "amazon" | "waterstones" | "direct"
+#   isbn_selector - (optional) CSS selector for ISBN data
+#   default_genre - Fallback genre if none can be extracted from the page
+#   placeholder   - Rules for detecting placeholder images
+#     known_hashes    - Perceptual hashes of known placeholder images
+#     text_patterns   - OCR text patterns indicating a placeholder
+#     min_file_size_kb - Images below this size (KB) are likely placeholders
+
+publishers:
+  - name: "Two Dollar Radio"
+    url: "https://twodollarradio.com/collections/forthcoming"
+    navigation: "static"
+    book_selector: ".product-card"
+    title_selector: ".product-card__title"
+    cover_selector: ".product-card__image img"
+    hires_source: "direct"
+    default_genre: "Literary & Historical Fiction"
+    placeholder:
+      min_file_size_kb: 10
+
+  - name: "Milkweed Editions"
+    url: "https://milkweed.org/books/coming-soon"
+    navigation: "static"
+    book_selector: ".book-item"
+    title_selector: ".book-item__title"
+    cover_selector: ".book-item__cover img"
+    hires_source: "direct"
+    default_genre: "Literary & Historical Fiction"
+    placeholder:
+      min_file_size_kb: 10
+
+  - name: "Soft Skull Press"
+    url: "https://softskull.com/"
+    navigation: "carousel"
+    navigation_options:
+      click_selector: ".carousel-next"
+      wait_ms: 500
+    book_selector: ".book-card"
+    title_selector: ".book-card__title"
+    cover_selector: ".book-card__cover img"
+    hires_source: "amazon"
+    isbn_selector: ".book-card [data-isbn]"
+    default_genre: "Literary & Historical Fiction"
+    placeholder:
+      min_file_size_kb: 10
+
+  - name: "Catapult"
+    url: "https://books.catapult.co/"
+    navigation: "carousel"
+    navigation_options:
+      click_selector: ".carousel-next"
+      wait_ms: 500
+    book_selector: ".book-card"
+    title_selector: ".book-card__title"
+    cover_selector: ".book-card__cover img"
+    hires_source: "amazon"
+    isbn_selector: ".book-card [data-isbn]"
+    default_genre: "Literary & Historical Fiction"
+    placeholder:
+      min_file_size_kb: 10
+
+  - name: "Counterpoint Press"
+    url: "https://www.counterpointpress.com/"
+    navigation: "carousel"
+    navigation_options:
+      click_selector: ".carousel-next"
+      wait_ms: 500
+    book_selector: ".book-card"
+    title_selector: ".book-card__title"
+    cover_selector: ".book-card__cover img"
+    hires_source: "amazon"
+    isbn_selector: ".book-card [data-isbn]"
+    default_genre: "Literary & Historical Fiction"
+    placeholder:
+      min_file_size_kb: 10
+
+  - name: "Granta Books"
+    url: "https://www.grantabooks.com/"
+    navigation: "carousel"
+    navigation_options:
+      click_selector: ".carousel-next"
+      wait_ms: 500
+    book_selector: ".book-card"
+    title_selector: ".book-card__title"
+    cover_selector: ".book-card__cover img"
+    hires_source: "waterstones"
+    isbn_selector: ".book-card [data-isbn]"
+    default_genre: "Literary & Historical Fiction"
+    placeholder:
+      min_file_size_kb: 10
+
+  - name: "SJP Lit (Zando)"
+    url: "https://zandoprojects.com/imprints/sjp-lit"
+    navigation: "multi-click"
+    navigation_options:
+      click_selector: ".book-reveal-btn"
+      wait_ms: 800
+    book_selector: ".book-item"
+    title_selector: ".book-item__title"
+    cover_selector: ".book-item__cover img"
+    hires_source: "direct"
+    default_genre: "Literary & Historical Fiction"
+    placeholder:
+      min_file_size_kb: 10
+
+  - name: "Slowburn Books (Zando)"
+    url: "https://zandoprojects.com/imprints/slowburn"
+    navigation: "multi-click"
+    navigation_options:
+      click_selector: ".book-reveal-btn"
+      wait_ms: 800
+    book_selector: ".book-item"
+    title_selector: ".book-item__title"
+    cover_selector: ".book-item__cover img"
+    hires_source: "direct"
+    default_genre: "Literary & Historical Fiction"
+    placeholder:
+      min_file_size_kb: 10
+
+  - name: "TinHouse (Zando)"
+    url: "https://zandoprojects.com/imprints/tin-house"
+    navigation: "multi-click"
+    navigation_options:
+      click_selector: ".book-reveal-btn"
+      wait_ms: 800
+    book_selector: ".book-item"
+    title_selector: ".book-item__title"
+    cover_selector: ".book-item__cover img"
+    hires_source: "direct"
+    default_genre: "Literary & Historical Fiction"
+    placeholder:
+      min_file_size_kb: 10
+
+  - name: "Zando"
+    url: "https://zandoprojects.com/imprints/zando"
+    navigation: "multi-click"
+    navigation_options:
+      click_selector: ".book-reveal-btn"
+      wait_ms: 800
+    book_selector: ".book-item"
+    title_selector: ".book-item__title"
+    cover_selector: ".book-item__cover img"
+    hires_source: "direct"
+    default_genre: "Literary & Historical Fiction"
+    placeholder:
+      min_file_size_kb: 10
+
+  - name: "Crooked Media Reads (Zando)"
+    url: "https://zandoprojects.com/imprints/crooked-media-reads"
+    navigation: "multi-click"
+    navigation_options:
+      click_selector: ".book-reveal-btn"
+      wait_ms: 800
+    book_selector: ".book-item"
+    title_selector: ".book-item__title"
+    cover_selector: ".book-item__cover img"
+    hires_source: "direct"
+    default_genre: "Nonfiction"
+    placeholder:
+      min_file_size_kb: 10
+
+  - name: "Evil Twin (Zando)"
+    url: "https://zandoprojects.com/imprints/evil-twin"
+    navigation: "multi-click"
+    navigation_options:
+      click_selector: ".book-reveal-btn"
+      wait_ms: 800
+    book_selector: ".book-item"
+    title_selector: ".book-item__title"
+    cover_selector: ".book-item__cover img"
+    hires_source: "direct"
+    default_genre: "Thriller & Mystery"
+    placeholder:
+      min_file_size_kb: 10
+
+  - name: "Gillian Flynn Books (Zando)"
+    url: "https://zandoprojects.com/imprints/gillian-flynn-books"
+    navigation: "multi-click"
+    navigation_options:
+      click_selector: ".book-reveal-btn"
+      wait_ms: 800
+    book_selector: ".book-item"
+    title_selector: ".book-item__title"
+    cover_selector: ".book-item__cover img"
+    hires_source: "direct"
+    default_genre: "Thriller & Mystery"
+    placeholder:
+      min_file_size_kb: 10
+
+  - name: "Graywolf Press"
+    url: "https://www.graywolfpress.org/books?search_api_fulltext=&field_pub_date_op=between&field_pub_date[value]=&field_pub_date[min]=now&field_pub_date[max]=now+2years&field_bisacheading_op=or&field_categories=All"
+    navigation: "paginated"
+    navigation_options:
+      next_selector: "a.pager__link--next"
+      max_pages: 5
+    book_selector: ".views-row"
+    title_selector: ".views-row .field--name-title"
+    cover_selector: ".views-row img"
+    hires_source: "direct"
+    default_genre: "Literary & Historical Fiction"
+    placeholder:
+      min_file_size_kb: 10
+
+  - name: "WW Norton"
+    url: "https://wwnorton.com/reader"
+    navigation: "carousel"
+    navigation_options:
+      click_selector: ".carousel-next"
+      wait_ms: 500
+    book_selector: ".book-card"
+    title_selector: ".book-card__title"
+    cover_selector: ".book-card__cover img"
+    hires_source: "amazon"
+    isbn_selector: ".book-card [data-isbn]"
+    default_genre: "Nonfiction"
+    placeholder:
+      min_file_size_kb: 10
+
+  - name: "Unnamed Press"
+    url: "https://www.unnamedpress.com/"
+    navigation: "static"
+    book_selector: ".book-item"
+    title_selector: ".book-item__title"
+    cover_selector: ".book-item__cover img"
+    hires_source: "direct"
+    default_genre: "Literary & Historical Fiction"
+    placeholder:
+      min_file_size_kb: 10
+
+  - name: "Grove Atlantic"
+    url: "https://groveatlantic.com/books/type/whats-coming/"
+    navigation: "paginated"
+    navigation_options:
+      next_selector: "a.next"
+      max_pages: 5
+    book_selector: ".book-item"
+    title_selector: ".book-item__title"
+    cover_selector: ".book-item__cover img"
+    hires_source: "direct"
+    default_genre: "Literary & Historical Fiction"
+    placeholder:
+      min_file_size_kb: 10
+
+  - name: "Transit Books"
+    url: "https://www.transitbooks.org/"
+    navigation: "static"
+    book_selector: ".book-item"
+    title_selector: ".book-item__title"
+    cover_selector: ".book-item__cover img"
+    hires_source: "direct"
+    default_genre: "Translation, Poetry & Short Stories"
+    placeholder:
+      min_file_size_kb: 10
+
+  - name: "Soho Press"
+    url: "https://sohopress.com/"
+    navigation: "static"
+    navigation_options:
+      click_selector: ".expand-arrow"
+      wait_ms: 500
+    book_selector: ".book-card"
+    title_selector: ".book-card__title"
+    cover_selector: ".book-card__cover img"
+    hires_source: "amazon"
+    isbn_selector: ".book-card [data-isbn]"
+    default_genre: "Thriller & Mystery"
+    placeholder:
+      min_file_size_kb: 10
+
+  - name: "Melville House"
+    url: "https://mhpbooks.com/books?genre=&type=forthcoming&sort-order="
+    navigation: "static"
+    book_selector: ".book-card"
+    title_selector: ".book-card__title"
+    cover_selector: ".book-card__cover img"
+    hires_source: "amazon"
+    isbn_selector: ".book-card [data-isbn]"
+    default_genre: "Literary & Historical Fiction"
+    placeholder:
+      min_file_size_kb: 10
+      text_patterns:
+        - "Preorder"
+
+  - name: "Faber"
+    url: "https://www.faber.co.uk/"
+    navigation: "carousel"
+    navigation_options:
+      click_selector: ".carousel-next"
+      wait_ms: 500
+    book_selector: ".book-card"
+    title_selector: ".book-card__title"
+    cover_selector: ".book-card__cover img"
+    hires_source: "direct"
+    default_genre: "Literary & Historical Fiction"
+    placeholder:
+      min_file_size_kb: 10
+
+  - name: "Astra House"
+    url: "https://astrapublishinghouse.com/imprints/astra-house/"
+    navigation: "carousel"
+    navigation_options:
+      click_selector: ".carousel-next"
+      wait_ms: 500
+    book_selector: ".book-card"
+    title_selector: ".book-card__title"
+    cover_selector: ".book-card__cover img"
+    hires_source: "direct"
+    default_genre: "Literary & Historical Fiction"
+    placeholder:
+      min_file_size_kb: 10
+
+  - name: "Farrar Straus & Giroux"
+    url: "https://us.macmillan.com/fsg/"
+    navigation: "carousel"
+    navigation_options:
+      click_selector: ".carousel-next"
+      wait_ms: 500
+    book_selector: ".book-card"
+    title_selector: ".book-card__title"
+    cover_selector: ".book-card__cover img"
+    hires_source: "direct"
+    default_genre: "Literary & Historical Fiction"
+    placeholder:
+      min_file_size_kb: 10
+
+  - name: "Flat Iron Books"
+    url: "https://us.macmillan.com/flatiron-books/"
+    navigation: "carousel"
+    navigation_options:
+      click_selector: ".carousel-next"
+      wait_ms: 500
+    book_selector: ".book-card"
+    title_selector: ".book-card__title"
+    cover_selector: ".book-card__cover img"
+    hires_source: "direct"
+    default_genre: "Nonfiction"
+    placeholder:
+      min_file_size_kb: 10
+
+  - name: "Henry Holt"
+    url: "https://us.macmillan.com/search?imprint=Henry+Holt&pub_date=coming_soon"
+    navigation: "paginated"
+    navigation_options:
+      next_selector: "a.next-page"
+      max_pages: 3
+    book_selector: ".book-card"
+    title_selector: ".book-card__title"
+    cover_selector: ".book-card__cover img"
+    hires_source: "direct"
+    default_genre: "Literary & Historical Fiction"
+    placeholder:
+      min_file_size_kb: 10
+
+  - name: "St. Martin Press"
+    url: "https://us.macmillan.com/stmartinspress/"
+    navigation: "carousel"
+    navigation_options:
+      click_selector: ".carousel-next"
+      wait_ms: 500
+    book_selector: ".book-card"
+    title_selector: ".book-card__title"
+    cover_selector: ".book-card__cover img"
+    hires_source: "direct"
+    default_genre: "Thriller & Mystery"
+    placeholder:
+      min_file_size_kb: 10
+
+  - name: "Harper Via"
+    url: "https://www.harpercollins.com/collections/harper-via?sortBy=on-sale-date-asc"
+    navigation: "paginated"
+    navigation_options:
+      next_selector: "a.next"
+      max_pages: 2
+    book_selector: ".product-card"
+    title_selector: ".product-card__title"
+    cover_selector: ".product-card__image img"
+    hires_source: "direct"
+    default_genre: "Literary & Historical Fiction"
+    placeholder:
+      min_file_size_kb: 10
+      text_patterns:
+        - "Cover Coming Soon"
+        - "Cover to be Revealed"
+
+  - name: "New Directions"
+    url: "https://www.ndbooks.com/books/"
+    navigation: "static"
+    book_selector: ".book-item"
+    title_selector: ".book-item__title"
+    cover_selector: ".book-item__cover img"
+    hires_source: "direct"
+    default_genre: "Translation, Poetry & Short Stories"
+    placeholder:
+      min_file_size_kb: 10
+
+  - name: "Little Brown and Company"
+    url: "https://www.hachettebookgroup.com/imprint/little-brown-and-company/"
+    navigation: "multi-click"
+    navigation_options:
+      click_selector: ".tab-coming-soon, .carousel-next"
+      wait_ms: 800
+    book_selector: ".book-card"
+    title_selector: ".book-card__title"
+    cover_selector: ".book-card__cover img"
+    hires_source: "direct"
+    default_genre: "Literary & Historical Fiction"
+    placeholder:
+      min_file_size_kb: 10
+
+  - name: "Grand Central Publishing"
+    url: "https://www.hachettebookgroup.com/imprint/grand-central-publishing/"
+    navigation: "carousel"
+    navigation_options:
+      click_selector: ".carousel-next"
+      wait_ms: 500
+    book_selector: ".book-card"
+    title_selector: ".book-card__title"
+    cover_selector: ".book-card__cover img"
+    hires_source: "direct"
+    default_genre: "Literary & Historical Fiction"
+    placeholder:
+      min_file_size_kb: 10
+
+  - name: "Scribner"
+    url: "https://www.simonandschuster.com/search/books/Imprint-Scribner/Coming-Soon/_/N-1z13w0eZi7o/Ne-pgx"
+    navigation: "paginated"
+    navigation_options:
+      next_selector: "a.next-page"
+      max_pages: 3
+    book_selector: ".book-item"
+    title_selector: ".book-item__title"
+    cover_selector: ".book-item__cover img"
+    hires_source: "direct"
+    default_genre: "Literary & Historical Fiction"
+    placeholder:
+      min_file_size_kb: 10
+
+  - name: "Coffee House Press"
+    url: "https://coffeehousepress.org/"
+    navigation: "carousel"
+    navigation_options:
+      click_selector: ".carousel-next"
+      wait_ms: 500
+    book_selector: ".book-card"
+    title_selector: ".book-card__title"
+    cover_selector: ".book-card__cover img"
+    hires_source: "direct"
+    default_genre: "Translation, Poetry & Short Stories"
+    placeholder:
+      min_file_size_kb: 10
+
+  - name: "Sarabande Books"
+    url: "https://www.sarabandebooks.org/all-titles/new-forthcoming"
+    navigation: "static"
+    book_selector: ".book-item"
+    title_selector: ".book-item__title"
+    cover_selector: ".book-item__cover img"
+    hires_source: "direct"
+    default_genre: "Translation, Poetry & Short Stories"
+    placeholder:
+      min_file_size_kb: 15
+      # Author photos are sometimes used as cover placeholders
+      text_patterns: []
+
+  - name: "Knopf Doubleday"
+    url: "https://knopfdoubleday.com/"
+    navigation: "multi-click"
+    navigation_options:
+      click_selector: ".view-details-btn, .popup-view-full"
+      wait_ms: 1000
+    book_selector: ".book-card"
+    title_selector: ".book-card__title"
+    cover_selector: ".book-card__cover img"
+    hires_source: "direct"
+    default_genre: "Literary & Historical Fiction"
+    placeholder:
+      min_file_size_kb: 10
+
+  - name: "Bloomsbury US"
+    url: "https://www.bloomsbury.com/us/fiction/"
+    navigation: "carousel"
+    navigation_options:
+      click_selector: ".carousel-next"
+      wait_ms: 500
+    book_selector: ".book-card"
+    title_selector: ".book-card__title"
+    cover_selector: ".book-card__cover img"
+    hires_source: "direct"
+    default_genre: "Literary & Historical Fiction"
+    placeholder:
+      min_file_size_kb: 10
+      # Bloomsbury logo jpeg used as placeholder
+      known_hashes: []
+
+  - name: "Europa Editions"
+    url: "https://www.europaeditions.com/catalogue/preview"
+    navigation: "paginated"
+    navigation_options:
+      next_selector: "a.next"
+      max_pages: 5
+    book_selector: ".book-item"
+    title_selector: ".book-item__title"
+    cover_selector: ".book-item__cover img"
+    hires_source: "direct"
+    default_genre: "Translation, Poetry & Short Stories"
+    placeholder:
+      min_file_size_kb: 10
+
+  - name: "The Feminist Press"
+    url: "https://feministpress.org/collections/coming-soon"
+    navigation: "static"
+    book_selector: ".product-card"
+    title_selector: ".product-card__title"
+    cover_selector: ".product-card__image img"
+    hires_source: "direct"
+    default_genre: "Literary & Historical Fiction"
+    placeholder:
+      min_file_size_kb: 10
+
+  - name: "Bellevue Literary Press"
+    url: "https://www.blpress.org/"
+    navigation: "static"
+    book_selector: ".book-item"
+    title_selector: ".book-item__title"
+    cover_selector: ".book-item__cover img"
+    hires_source: "direct"
+    default_genre: "Literary & Historical Fiction"
+    placeholder:
+      min_file_size_kb: 10
+
+  - name: "Random House Books"
+    url: "https://randomhousebooks.com/books/"
+    navigation: "infinite-scroll"
+    navigation_options:
+      scroll_count: 10
+      wait_ms: 1000
+    book_selector: ".book-card"
+    title_selector: ".book-card__title"
+    cover_selector: ".book-card__cover img"
+    hires_source: "amazon"
+    isbn_selector: ".book-card [data-isbn]"
+    default_genre: "Literary & Historical Fiction"
+    placeholder:
+      min_file_size_kb: 10

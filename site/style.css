@@ -1,0 +1,184 @@
+/* Forthcoming Covers Gallery - Styles */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: #f8f9fa;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Header & Controls */
+.gallery-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #fff;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.gallery-header h1 {
+  margin: 0 0 0.75rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.genre-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.genre-btn {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  background: #fff;
+  color: #555;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+
+.genre-btn:hover {
+  border-color: #333;
+  color: #333;
+}
+
+.genre-btn.active {
+  background: #333;
+  color: #fff;
+  border-color: #333;
+}
+
+.secondary-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#publisher-filter {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  background: #fff;
+  min-width: 180px;
+}
+
+.book-count {
+  font-size: 0.85rem;
+  color: #666;
+  font-weight: 500;
+}
+
+/* Gallery Grid */
+main {
+  padding: 1.5rem;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+/* Book Card - Image only, no text beneath */
+.book-card {
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  cursor: pointer;
+  aspect-ratio: 2 / 3;
+}
+
+.book-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.book-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.book-card img[data-src] {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.book-card img.loaded {
+  opacity: 1;
+}
+
+/* Loading indicator */
+.loading {
+  text-align: center;
+  padding: 2rem;
+  color: #999;
+  display: none;
+}
+
+/* Noscript fallback */
+.noscript-msg {
+  text-align: center;
+  padding: 1rem;
+  color: #666;
+  font-style: italic;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .gallery-header h1 {
+    font-size: 1.2rem;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 0.75rem;
+  }
+
+  .genre-btn {
+    font-size: 0.7rem;
+    padding: 0.3rem 0.6rem;
+  }
+
+  main {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 0.5rem;
+  }
+
+  .secondary-controls {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
