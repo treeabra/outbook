@@ -8,9 +8,9 @@
     "test": "vitest run tests/unit tests/property",
     "test:integration": "vitest run tests/integration",
     "test:all": "vitest run",
-    "scrape": "node --loader ts-node/esm src/main.ts",
-    "generate": "node --loader ts-node/esm src/generator/site-generator.ts",
-    "health-check": "node --loader ts-node/esm src/health-check-main.ts"
+    "scrape": "tsc && node dist/main.js",
+    "generate": "tsc && node dist/generator/site-generator.js",
+    "health-check": "tsc && node dist/health-check-main.js"
   },
   "dependencies": {
     "image-hash": "^5.3.0",
@@ -24,6 +24,7 @@
     "@types/node": "^20.17.0",
     "fast-check": "^3.23.0",
     "ts-node": "^10.9.2",
+    "tsx": "^4.7.0",
     "typescript": "^5.7.0",
     "vitest": "^3.1.0"
   },
