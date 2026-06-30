@@ -48,9 +48,14 @@ export async function isPlaceholder(
  */
 async function checkPerceptualHash(imageBuffer: Buffer, knownHashes: string[]): Promise<boolean> {
   try {
-    // Dynamic import for imghash (ESM compatibility)
-    const imghash = await import('imghash');
-    const hash = await imghash.hash(imageBuffer, 8, 'hex');
+    // Dynamic import for image-hash (ESM compatibility)
+    const { imageHash } = await import('image-hash');
+    const hash = await new Promise<string>((resolve, reject) => {
+      imageHash({ data: imageBuffer }, 8, true, (err: Error | null, hash: string) => {
+        if (err) reject(err);
+        else resolve(hash);
+      });
+    });
 
     for (const knownHash of knownHashes) {
       const distance = hammingDistance(hash, knownHash);

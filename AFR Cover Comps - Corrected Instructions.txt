@@ -1,0 +1,48 @@
+AFR COVER COMPS — CORRECTED INSTRUCTIONS
+==========================================
+
+ONE-TIME SETUP (do this once, takes 5 minutes):
+
+1. Download and install Python: https://www.python.org/downloads/
+
+2. Create a folder called "CoverCompsAutomation" in your home folder
+   (Finder → Go → Home, then create the folder there)
+
+3. Put these files in the folder:
+   - generate_cover_comps.py (the script from your colleague)
+   - AFR Nominated and Confirmed Titles-2026-04-15-12-59-07.xlsx (updated as needed)
+
+4. Open Terminal app
+
+5. Verify Python is installed, paste:
+   python3 --version
+   (You should see a version number like "Python 3.14.5")
+
+6. Install required libraries, paste:
+   pip3 install PyMuPDF openpyxl reportlab Pillow
+
+
+FOR EACH PROJECT:
+
+1. Download the CB from Salesforce as a PDF
+
+2. Rename the CB PDF to exactly: CB.pdf
+
+3. Download the vendor's cover presentation PDF from DASH
+
+4. Make sure the vendor PDF filename contains the 5-digit Title ID:
+   Example: Author-TitleNameNoSpaces-34492-FT-v1.pdf
+
+5. Drag both PDFs (CB.pdf and the vendor PDF) into your CoverCompsAutomation folder
+
+6. Open Terminal and paste these two commands:
+
+   cd ~/CoverCompsAutomation
+
+   python3 generate_cover_comps.py 34492
+
+   (Replace 34492 with your title's 5-digit ID)
+
+7. The output file "CoverComps-34492-Generated.pdf" will appear in the same folder
+
+8. Rename the file to: Author-TitleNameNoSpaces-34492-FT-ART.pdf
