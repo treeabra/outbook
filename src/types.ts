@@ -103,6 +103,12 @@ export interface PublisherConfig {
   isbn_selector?: string;
   default_genre: Genre;
   placeholder: PlaceholderConfig;
+  /**
+   * Optional URL pattern(s) to identify book detail links.
+   * Comma-separated if multiple (e.g., "/products/,/books/").
+   * Used by the pattern-based scraper fallback when CSS selectors don't match.
+   */
+  url_pattern?: string;
 }
 
 // ---------------------------------------------------------------------------

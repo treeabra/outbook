@@ -114,6 +114,7 @@ function validatePublisher(entry: unknown, index: number): PublisherConfig {
     ? (obj.navigation_options as PublisherConfig['navigation_options'])
     : undefined;
   const isbnSelector = typeof obj.isbn_selector === 'string' ? obj.isbn_selector : undefined;
+  const urlPattern = typeof obj.url_pattern === 'string' ? obj.url_pattern : undefined;
 
   return {
     name,
@@ -127,6 +128,7 @@ function validatePublisher(entry: unknown, index: number): PublisherConfig {
     isbn_selector: isbnSelector,
     default_genre: defaultGenre,
     placeholder,
+    url_pattern: urlPattern,
   };
 }
 
