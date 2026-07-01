@@ -22,7 +22,7 @@
 
   async function init() {
     try {
-      const response = await fetch('data/books.json');
+      const response = await fetch('../data/books.json');
       if (!response.ok) throw new Error('Failed to load books.json');
       const manifest = await response.json();
       allBooks = manifest.books || [];
@@ -48,7 +48,7 @@
       card.setAttribute('title', book.title + ' — ' + book.publisher);
 
       const img = document.createElement('img');
-      img.setAttribute('data-src', 'covers/thumbs/' + book.thumbFilename);
+      img.setAttribute('data-src', '../covers/thumbs/' + book.thumbFilename);
       img.setAttribute('alt', book.title + ' by ' + book.publisher);
       img.width = 300;
       img.height = 450;
@@ -154,7 +154,7 @@
 
   function downloadHires(book) {
     const link = document.createElement('a');
-    link.href = 'covers/hires/' + book.hiresFilename;
+    link.href = '../covers/hires/' + book.hiresFilename;
     link.download = book.hiresFilename;
     document.body.appendChild(link);
     link.click();
