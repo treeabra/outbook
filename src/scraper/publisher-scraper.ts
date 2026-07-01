@@ -33,30 +33,61 @@ const DEFAULT_BOOK_URL_PATTERNS = [
  * 3. Fall back to pattern-based link+image extraction
  */
 export async function scrapePublisher(config: PublisherConfig, browser: Browser): Promise<RawBook[]> {
+  console.log(`[${config.name}] >>> scrapePublisher START`);
+
   const context = await browser.newContext({
     userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    viewport: { width: 1920, height: 1080 },
+    locale: 'en-US',
   });
+
+  // Stealth: override navigator.webdriver to avoid bot detection
+  await context.addInitScript(() => {
+    Object.defineProperty(navigator, 'webdriver', { get: () => false });
+  });
+
   const page = await context.newPage();
   page.setDefaultTimeout(PAGE_TIMEOUT);
 
   try {
     console.log(`[${config.name}] Navigating to ${config.url}`);
     await page.goto(config.url, { waitUntil: 'domcontentloaded', timeout: PAGE_TIMEOUT });
+    console.log(`[${config.name}] domcontentloaded fired`);
 
     // Wait for the page to settle (images, lazy loading, etc.)
     await page.waitForLoadState('networkidle', { timeout: 15000 }).catch(() => {
       console.log(`[${config.name}] Network idle timeout — proceeding with available content`);
     });
+    console.log(`[${config.name}] networkidle complete (or timed out)`);
+
+    // Extra wait for JS-heavy pages to render
+    await page.waitForTimeout(3000);
+    console.log(`[${config.name}] Extra 3s wait complete`);
+
+    // Log page diagnostics
+    const pageTitle = await page.title();
+    const diagnostics = await page.evaluate(() => {
+      return {
+        aTags: document.querySelectorAll('a').length,
+        imgTags: document.querySelectorAll('img').length,
+        bodyLength: document.body?.innerHTML?.length ?? 0,
+      };
+    });
+    console.log(`[${config.name}] Page title: "${pageTitle}"`);
+    console.log(`[${config.name}] Page diagnostics: ${diagnostics.aTags} <a> tags, ${diagnostics.imgTags} <img> tags, body HTML length: ${diagnostics.bodyLength}`);
 
     // Apply navigation strategy to load all content (pagination, scroll, etc.)
+    console.log(`[${config.name}] Applying navigation strategy: ${config.navigation ?? 'static'}`);
     const strategy = createNavigationStrategy(config.navigation);
     const navResult = await strategy.navigate(page, config.navigation_options);
+    console.log(`[${config.name}] Navigation strategy complete, pages: ${navResult.pagesLoaded ?? 1}`);
 
     if (navResult.errors.length > 0) {
-      console.warn(`[${config.name}] Navigation warnings:`, navResult.errors);
+      console.log(`[${config.name}] Navigation warnings: ${JSON.stringify(navResult.errors)}`);
     }
 
     // Layered extraction
+    console.log(`[${config.name}] Starting CSS selector extraction...`);
     let books = await trySelectorsExtraction(page, config);
 
     if (books.length > 0) {
@@ -68,20 +99,42 @@ export async function scrapePublisher(config: PublisherConfig, browser: Browser)
 
     // Detect if Shopify
     const isShopify = await detectShopify(page);
+    console.log(`[${config.name}] Shopify detected: ${isShopify}`);
+
     if (isShopify) {
-      console.log(`[${config.name}] Detected Shopify site`);
       books = await extractShopify(page, config);
+      console.log(`[${config.name}] Shopify extraction found ${books.length} books`);
       if (books.length > 0) {
-        console.log(`[${config.name}] Shopify extraction found ${books.length} books`);
         return books;
       }
     }
 
     // Generic pattern-based extraction
+    console.log(`[${config.name}] Trying generic pattern-based extraction...`);
     books = await extractByPatterns(page, config);
     console.log(`[${config.name}] Pattern-based extraction found ${books.length} books`);
+
+    // If still 0 books, dump page content for debugging
+    if (books.length === 0) {
+      const snippet = await page.evaluate(() => {
+        const text = document.body?.innerText ?? '';
+        return text.substring(0, 500);
+      });
+      console.log(`[${config.name}] ZERO BOOKS — first 500 chars of page text:`);
+      console.log(`[${config.name}] "${snippet}"`);
+
+      // Also log a sample of hrefs on the page for pattern debugging
+      const sampleHrefs = await page.evaluate(() => {
+        const links = Array.from(document.querySelectorAll('a[href]'));
+        return links.slice(0, 15).map(a => a.getAttribute('href'));
+      });
+      console.log(`[${config.name}] Sample hrefs on page: ${JSON.stringify(sampleHrefs)}`);
+    }
+
+    console.log(`[${config.name}] >>> scrapePublisher END — returning ${books.length} books`);
     return books;
   } catch (err) {
+    console.log(`[${config.name}] !!! ERROR in scrapePublisher: ${(err as Error).message}`);
     throw new Error(`Failed to scrape ${config.name}: ${(err as Error).message}`);
   } finally {
     await context.close();
@@ -96,7 +149,9 @@ async function trySelectorsExtraction(page: Page, config: PublisherConfig): Prom
   const books: RawBook[] = [];
 
   try {
+    console.log(`[${config.name}] CSS: looking for book_selector="${config.book_selector}"`);
     const bookElements = await page.$$(config.book_selector);
+    console.log(`[${config.name}] CSS: found ${bookElements.length} elements matching book_selector`);
     if (bookElements.length === 0) return [];
 
     for (const element of bookElements) {
@@ -132,9 +187,10 @@ async function trySelectorsExtraction(page: Page, config: PublisherConfig): Prom
       }
     }
   } catch {
-    // Selectors didn't work at all
+    console.log(`[${config.name}] CSS: selector extraction threw an exception`);
   }
 
+  console.log(`[${config.name}] CSS: extracted ${books.length} books from selectors`);
   return books;
 }
 
@@ -158,6 +214,7 @@ async function detectShopify(page: Page): Promise<boolean> {
 
 async function extractShopify(page: Page, config: PublisherConfig): Promise<RawBook[]> {
   const urlPatterns = getUrlPatterns(config);
+  console.log(`[${config.name}] Shopify extraction with patterns: ${JSON.stringify(urlPatterns)}`);
 
   return page.evaluate(
     ({ publisherName, patterns }) => {
@@ -260,6 +317,7 @@ async function extractShopify(page: Page, config: PublisherConfig): Promise<RawB
 async function extractByPatterns(page: Page, config: PublisherConfig): Promise<RawBook[]> {
   const urlPatterns = getUrlPatterns(config);
   const baseUrl = config.url;
+  console.log(`[${config.name}] Pattern extraction with URL patterns: ${JSON.stringify(urlPatterns)}`);
 
   return page.evaluate(
     ({ publisherName, patterns, baseUrl }) => {
