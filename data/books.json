@@ -1,5 +1,2418 @@
 {
-  "lastUpdated": "2026-07-01T18:22:05.618Z",
-  "totalBooks": 0,
-  "books": []
+  "lastUpdated": "2026-07-01T19:35:18.715Z",
+  "totalBooks": 201,
+  "books": [
+    {
+      "id": "ee0f0bf3",
+      "title": "Alberto Angela",
+      "publisher": "Europa Editions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "europa-editions_alberto-angela.jpg",
+      "thumbFilename": "europa-editions_alberto-angela.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "ee0f0bf3",
+      "title": "Alberto Angela",
+      "publisher": "Europa Editions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "europa-editions_alberto-angela.jpg",
+      "thumbFilename": "europa-editions_alberto-angela.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "876ccce6",
+      "title": "Tiziana Rinaldi Castro",
+      "publisher": "Europa Editions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "europa-editions_tiziana-rinaldi-castro.jpg",
+      "thumbFilename": "europa-editions_tiziana-rinaldi-castro.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "3330a387",
+      "title": "Thomas Schlesser",
+      "publisher": "Europa Editions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "europa-editions_thomas-schlesser.jpg",
+      "thumbFilename": "europa-editions_thomas-schlesser.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "3330a387",
+      "title": "Thomas Schlesser",
+      "publisher": "Europa Editions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "europa-editions_thomas-schlesser.jpg",
+      "thumbFilename": "europa-editions_thomas-schlesser.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "ba4500e9",
+      "title": "Intan Paramaditha",
+      "publisher": "Europa Editions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "europa-editions_intan-paramaditha.jpg",
+      "thumbFilename": "europa-editions_intan-paramaditha.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "8a579712",
+      "title": "Anne Berest, Claire Berest",
+      "publisher": "Europa Editions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "europa-editions_anne-berest-claire-berest.jpg",
+      "thumbFilename": "europa-editions_anne-berest-claire-berest.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "764d50e9",
+      "title": "Transcription",
+      "publisher": "Farrar Straus & Giroux",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "farrar-straus-giroux_transcription.jpg",
+      "thumbFilename": "farrar-straus-giroux_transcription.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "a87f2426",
+      "title": "Palaver",
+      "publisher": "Farrar Straus & Giroux",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "farrar-straus-giroux_palaver.jpg",
+      "thumbFilename": "farrar-straus-giroux_palaver.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "351099c3",
+      "title": "Pride and Pleasure",
+      "publisher": "Farrar Straus & Giroux",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "farrar-straus-giroux_pride-and-pleasure.jpg",
+      "thumbFilename": "farrar-straus-giroux_pride-and-pleasure.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "6f83f0ce",
+      "title": "Then the War",
+      "publisher": "Farrar Straus & Giroux",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "farrar-straus-giroux_then-the-war.jpg",
+      "thumbFilename": "farrar-straus-giroux_then-the-war.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "45210793",
+      "title": "Music for the Dead and Resurrected",
+      "publisher": "Farrar Straus & Giroux",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "farrar-straus-giroux_music-for-the-dead-and-resurrected.jpg",
+      "thumbFilename": "farrar-straus-giroux_music-for-the-dead-and-resurrected.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "d0d4c344",
+      "title": "Here is the Sweet Hand",
+      "publisher": "Farrar Straus & Giroux",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "farrar-straus-giroux_here-is-the-sweet-hand.jpg",
+      "thumbFilename": "farrar-straus-giroux_here-is-the-sweet-hand.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "73c6557d",
+      "title": "100 Boyfriends",
+      "publisher": "Farrar Straus & Giroux",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "farrar-straus-giroux_100-boyfriends.jpg",
+      "thumbFilename": "farrar-straus-giroux_100-boyfriends.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "294d5442",
+      "title": "Mad Eden",
+      "publisher": "Farrar Straus & Giroux",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "farrar-straus-giroux_mad-eden.jpg",
+      "thumbFilename": "farrar-straus-giroux_mad-eden.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "c24c3269",
+      "title": "The Vivisectors",
+      "publisher": "Farrar Straus & Giroux",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "farrar-straus-giroux_the-vivisectors.jpg",
+      "thumbFilename": "farrar-straus-giroux_the-vivisectors.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "c583d325",
+      "title": "Mare",
+      "publisher": "Farrar Straus & Giroux",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "farrar-straus-giroux_mare.jpg",
+      "thumbFilename": "farrar-straus-giroux_mare.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "7853cc50",
+      "title": "Palaces of the Crow",
+      "publisher": "Farrar Straus & Giroux",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "farrar-straus-giroux_palaces-of-the-crow.jpg",
+      "thumbFilename": "farrar-straus-giroux_palaces-of-the-crow.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "b4a7d989",
+      "title": "Bright Thorn",
+      "publisher": "Farrar Straus & Giroux",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "farrar-straus-giroux_bright-thorn.jpg",
+      "thumbFilename": "farrar-straus-giroux_bright-thorn.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "3e086a6d",
+      "title": "Vilhelm's Room",
+      "publisher": "Farrar Straus & Giroux",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "farrar-straus-giroux_vilhelms-room.jpg",
+      "thumbFilename": "farrar-straus-giroux_vilhelms-room.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "260a7d88",
+      "title": "Death of the Soccer God",
+      "publisher": "Farrar Straus & Giroux",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "farrar-straus-giroux_death-of-the-soccer-god.jpg",
+      "thumbFilename": "farrar-straus-giroux_death-of-the-soccer-god.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "5030b464",
+      "title": "The City Without Jews",
+      "publisher": "Farrar Straus & Giroux",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "farrar-straus-giroux_the-city-without-jews.jpg",
+      "thumbFilename": "farrar-straus-giroux_the-city-without-jews.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "5cf685d6",
+      "title": "Total Dreamboat",
+      "publisher": "Flat Iron Books",
+      "genres": [
+        "Nonfiction"
+      ],
+      "hiresFilename": "flat-iron-books_total-dreamboat.jpg",
+      "thumbFilename": "flat-iron-books_total-dreamboat.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "d95b6d41",
+      "title": "Mean Moms",
+      "publisher": "Flat Iron Books",
+      "genres": [
+        "Nonfiction"
+      ],
+      "hiresFilename": "flat-iron-books_mean-moms.jpg",
+      "thumbFilename": "flat-iron-books_mean-moms.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "a0b96d83",
+      "title": "Kuleana",
+      "publisher": "Flat Iron Books",
+      "genres": [
+        "Nonfiction"
+      ],
+      "hiresFilename": "flat-iron-books_kuleana.jpg",
+      "thumbFilename": "flat-iron-books_kuleana.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "78e90bc6",
+      "title": "Park Avenue",
+      "publisher": "Flat Iron Books",
+      "genres": [
+        "Nonfiction"
+      ],
+      "hiresFilename": "flat-iron-books_park-avenue.jpg",
+      "thumbFilename": "flat-iron-books_park-avenue.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "029bd30f",
+      "title": "Erased",
+      "publisher": "Flat Iron Books",
+      "genres": [
+        "Nonfiction"
+      ],
+      "hiresFilename": "flat-iron-books_erased.jpg",
+      "thumbFilename": "flat-iron-books_erased.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "5fc7a75c",
+      "title": "The Goldens",
+      "publisher": "Flat Iron Books",
+      "genres": [
+        "Nonfiction"
+      ],
+      "hiresFilename": "flat-iron-books_the-goldens.jpg",
+      "thumbFilename": "flat-iron-books_the-goldens.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "99d70f73",
+      "title": "The Secret History of Twin Peaks",
+      "publisher": "Flat Iron Books",
+      "genres": [
+        "Nonfiction"
+      ],
+      "hiresFilename": "flat-iron-books_the-secret-history-of-twin-peaks.jpg",
+      "thumbFilename": "flat-iron-books_the-secret-history-of-twin-peaks.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "14134991",
+      "title": "Estrogen, Interrupted",
+      "publisher": "Flat Iron Books",
+      "genres": [
+        "Nonfiction"
+      ],
+      "hiresFilename": "flat-iron-books_estrogen-interrupted.jpg",
+      "thumbFilename": "flat-iron-books_estrogen-interrupted.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "a2359ff7",
+      "title": "The Mirror of Infinite Endings",
+      "publisher": "Flat Iron Books",
+      "genres": [
+        "Nonfiction"
+      ],
+      "hiresFilename": "flat-iron-books_the-mirror-of-infinite-endings.jpg",
+      "thumbFilename": "flat-iron-books_the-mirror-of-infinite-endings.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "9f9e39d5",
+      "title": "Dead Beat",
+      "publisher": "Flat Iron Books",
+      "genres": [
+        "Nonfiction"
+      ],
+      "hiresFilename": "flat-iron-books_dead-beat.jpg",
+      "thumbFilename": "flat-iron-books_dead-beat.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "d4ca4618",
+      "title": "We Are Called to Rise",
+      "publisher": "Flat Iron Books",
+      "genres": [
+        "Nonfiction"
+      ],
+      "hiresFilename": "flat-iron-books_we-are-called-to-rise.jpg",
+      "thumbFilename": "flat-iron-books_we-are-called-to-rise.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "636a48bb",
+      "title": "Feed Them Well",
+      "publisher": "Flat Iron Books",
+      "genres": [
+        "Nonfiction"
+      ],
+      "hiresFilename": "flat-iron-books_feed-them-well.jpg",
+      "thumbFilename": "flat-iron-books_feed-them-well.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "abb70d98",
+      "title": "All Our Evenings",
+      "publisher": "Flat Iron Books",
+      "genres": [
+        "Nonfiction"
+      ],
+      "hiresFilename": "flat-iron-books_all-our-evenings.jpg",
+      "thumbFilename": "flat-iron-books_all-our-evenings.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "c1fc077e",
+      "title": "Too Sensitive",
+      "publisher": "Flat Iron Books",
+      "genres": [
+        "Nonfiction"
+      ],
+      "hiresFilename": "flat-iron-books_too-sensitive.jpg",
+      "thumbFilename": "flat-iron-books_too-sensitive.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "169f3065",
+      "title": "They Say a Girl Died Here",
+      "publisher": "Flat Iron Books",
+      "genres": [
+        "Nonfiction"
+      ],
+      "hiresFilename": "flat-iron-books_they-say-a-girl-died-here.jpg",
+      "thumbFilename": "flat-iron-books_they-say-a-girl-died-here.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "08a5ebee",
+      "title": "I Have This Thing for Flowers",
+      "publisher": "Flat Iron Books",
+      "genres": [
+        "Nonfiction"
+      ],
+      "hiresFilename": "flat-iron-books_i-have-this-thing-for-flowers.jpg",
+      "thumbFilename": "flat-iron-books_i-have-this-thing-for-flowers.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "ffae6e8b",
+      "title": "Filter Results",
+      "publisher": "Graywolf Press",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "graywolf-press_filter-results.jpg",
+      "thumbFilename": "graywolf-press_filter-results.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "638d857e",
+      "title": "Questions 27 & 28",
+      "publisher": "Graywolf Press",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "graywolf-press_questions-27-28.jpg",
+      "thumbFilename": "graywolf-press_questions-27-28.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "638d857e",
+      "title": "Questions 27 & 28",
+      "publisher": "Graywolf Press",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "graywolf-press_questions-27-28.jpg",
+      "thumbFilename": "graywolf-press_questions-27-28.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "638d857e",
+      "title": "Questions 27 & 28",
+      "publisher": "Graywolf Press",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "graywolf-press_questions-27-28.jpg",
+      "thumbFilename": "graywolf-press_questions-27-28.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "638d857e",
+      "title": "Questions 27 & 28",
+      "publisher": "Graywolf Press",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "graywolf-press_questions-27-28.jpg",
+      "thumbFilename": "graywolf-press_questions-27-28.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "638d857e",
+      "title": "Questions 27 & 28",
+      "publisher": "Graywolf Press",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "graywolf-press_questions-27-28.jpg",
+      "thumbFilename": "graywolf-press_questions-27-28.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "638d857e",
+      "title": "Questions 27 & 28",
+      "publisher": "Graywolf Press",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "graywolf-press_questions-27-28.jpg",
+      "thumbFilename": "graywolf-press_questions-27-28.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "638d857e",
+      "title": "Questions 27 & 28",
+      "publisher": "Graywolf Press",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "graywolf-press_questions-27-28.jpg",
+      "thumbFilename": "graywolf-press_questions-27-28.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "638d857e",
+      "title": "Questions 27 & 28",
+      "publisher": "Graywolf Press",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "graywolf-press_questions-27-28.jpg",
+      "thumbFilename": "graywolf-press_questions-27-28.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "fe48ca25",
+      "title": "SORT BY",
+      "publisher": "Grove Atlantic",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "grove-atlantic_sort-by.jpg",
+      "thumbFilename": "grove-atlantic_sort-by.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "0624389c",
+      "title": "Parishioner",
+      "publisher": "Grove Atlantic",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "grove-atlantic_parishioner.jpg",
+      "thumbFilename": "grove-atlantic_parishioner.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "88036a28",
+      "title": "Alvesdon",
+      "publisher": "Grove Atlantic",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "grove-atlantic_alvesdon.jpg",
+      "thumbFilename": "grove-atlantic_alvesdon.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "3c6ab7c9",
+      "title": "What The Night Brings",
+      "publisher": "Grove Atlantic",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "grove-atlantic_what-the-night-brings.jpg",
+      "thumbFilename": "grove-atlantic_what-the-night-brings.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "0d0d3229",
+      "title": "Carved In Blood",
+      "publisher": "Grove Atlantic",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "grove-atlantic_carved-in-blood.jpg",
+      "thumbFilename": "grove-atlantic_carved-in-blood.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "866a1978",
+      "title": "Silly Sounds",
+      "publisher": "Henry Holt",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "henry-holt_silly-sounds.jpg",
+      "thumbFilename": "henry-holt_silly-sounds.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "22b82800",
+      "title": "What Roams Beneath the Stars",
+      "publisher": "Henry Holt",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "henry-holt_what-roams-beneath-the-stars.jpg",
+      "thumbFilename": "henry-holt_what-roams-beneath-the-stars.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "ebfd434e",
+      "title": "Give Them Their Flowers",
+      "publisher": "Henry Holt",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "henry-holt_give-them-their-flowers.jpg",
+      "thumbFilename": "henry-holt_give-them-their-flowers.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "2c062ff7",
+      "title": "You Hide That You Hate Me and I Hide That I Know",
+      "publisher": "Henry Holt",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "henry-holt_you-hide-that-you-hate-me-and-i-hide-that-i-know.jpg",
+      "thumbFilename": "henry-holt_you-hide-that-you-hate-me-and-i-hide-that-i-know.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "26c82acb",
+      "title": "Collected Poetry",
+      "publisher": "Henry Holt",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "henry-holt_collected-poetry.jpg",
+      "thumbFilename": "henry-holt_collected-poetry.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "16766664",
+      "title": "Long Night Moon",
+      "publisher": "Henry Holt",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "henry-holt_long-night-moon.jpg",
+      "thumbFilename": "henry-holt_long-night-moon.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "c45765c6",
+      "title": "The Salt Stones",
+      "publisher": "Milkweed Editions",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "milkweed-editions_the-salt-stones.jpg",
+      "thumbFilename": "milkweed-editions_the-salt-stones.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "fa76c0af",
+      "title": "Ampersand Organ",
+      "publisher": "Milkweed Editions",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "milkweed-editions_ampersand-organ.jpg",
+      "thumbFilename": "milkweed-editions_ampersand-organ.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "98111b94",
+      "title": "Low Flying Planes",
+      "publisher": "Milkweed Editions",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "milkweed-editions_low-flying-planes.jpg",
+      "thumbFilename": "milkweed-editions_low-flying-planes.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "c1c00344",
+      "title": "Erratica",
+      "publisher": "Milkweed Editions",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "milkweed-editions_erratica.jpg",
+      "thumbFilename": "milkweed-editions_erratica.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "67fc038c",
+      "title": "The Going Is Forever",
+      "publisher": "Milkweed Editions",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "milkweed-editions_the-going-is-forever.jpg",
+      "thumbFilename": "milkweed-editions_the-going-is-forever.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "56f79a00",
+      "title": "Exhibit G",
+      "publisher": "Milkweed Editions",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "milkweed-editions_exhibit-g.jpg",
+      "thumbFilename": "milkweed-editions_exhibit-g.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "e089960a",
+      "title": "Assembled Audience",
+      "publisher": "Milkweed Editions",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "milkweed-editions_assembled-audience.jpg",
+      "thumbFilename": "milkweed-editions_assembled-audience.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "b3ff9c76",
+      "title": "The Way Around",
+      "publisher": "Milkweed Editions",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "milkweed-editions_the-way-around.jpg",
+      "thumbFilename": "milkweed-editions_the-way-around.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "55295db2",
+      "title": "Sinkhole",
+      "publisher": "Milkweed Editions",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "milkweed-editions_sinkhole.jpg",
+      "thumbFilename": "milkweed-editions_sinkhole.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "7bda67e5",
+      "title": "Banbasexile",
+      "publisher": "Milkweed Editions",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "milkweed-editions_banbasexile.jpg",
+      "thumbFilename": "milkweed-editions_banbasexile.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "e60da4cc",
+      "title": "Wisp",
+      "publisher": "Milkweed Editions",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "milkweed-editions_wisp.jpg",
+      "thumbFilename": "milkweed-editions_wisp.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "ad74a6ff",
+      "title": "Remember The Bees",
+      "publisher": "Milkweed Editions",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "milkweed-editions_remember-the-bees.jpg",
+      "thumbFilename": "milkweed-editions_remember-the-bees.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "62d91636",
+      "title": "Elegy With Beautiful Child",
+      "publisher": "Milkweed Editions",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "milkweed-editions_elegy-with-beautiful-child.jpg",
+      "thumbFilename": "milkweed-editions_elegy-with-beautiful-child.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "f7ee8db6",
+      "title": "Pink Theory",
+      "publisher": "Milkweed Editions",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "milkweed-editions_pink-theory.jpg",
+      "thumbFilename": "milkweed-editions_pink-theory.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "afe71201",
+      "title": "Migration",
+      "publisher": "Milkweed Editions",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "milkweed-editions_migration.jpg",
+      "thumbFilename": "milkweed-editions_migration.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "763c531f",
+      "title": "Reality Reality Reality",
+      "publisher": "Milkweed Editions",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "milkweed-editions_reality-reality-reality.jpg",
+      "thumbFilename": "milkweed-editions_reality-reality-reality.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "88aab680",
+      "title": "The Home Place",
+      "publisher": "Milkweed Editions",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "milkweed-editions_the-home-place.jpg",
+      "thumbFilename": "milkweed-editions_the-home-place.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "08b8ba27",
+      "title": "Cold Mountain Zen",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_cold-mountain-zen.jpg",
+      "thumbFilename": "new-directions_cold-mountain-zen.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "afb3c991",
+      "title": "Dooneen",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_dooneen.jpg",
+      "thumbFilename": "new-directions_dooneen.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "b8d82c03",
+      "title": "Good-Bye",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_good-bye.jpg",
+      "thumbFilename": "new-directions_good-bye.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "4dfa679f",
+      "title": "Equinox",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_equinox.jpg",
+      "thumbFilename": "new-directions_equinox.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "079ed715",
+      "title": "The Arrivants",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_the-arrivants.jpg",
+      "thumbFilename": "new-directions_the-arrivants.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "3c61dbe5",
+      "title": "Fortress Besieged",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_fortress-besieged.jpg",
+      "thumbFilename": "new-directions_fortress-besieged.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "f9f9020d",
+      "title": "Hafni Says",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_hafni-says.jpg",
+      "thumbFilename": "new-directions_hafni-says.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "3c6c035a",
+      "title": "London",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_london.jpg",
+      "thumbFilename": "new-directions_london.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "678dc0d2",
+      "title": "The Complete Stories",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_the-complete-stories.jpg",
+      "thumbFilename": "new-directions_the-complete-stories.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "0b1a47f6",
+      "title": "Celeste, Daughter of the Earth and Other Early Poems",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_celeste-daughter-of-the-earth-and-other-early-poems.jpg",
+      "thumbFilename": "new-directions_celeste-daughter-of-the-earth-and-other-early-poems.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "6161aca3",
+      "title": "Conversation in the Mountains",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_conversation-in-the-mountains.jpg",
+      "thumbFilename": "new-directions_conversation-in-the-mountains.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "25184523",
+      "title": "Ruins, Child",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_ruins-child.jpg",
+      "thumbFilename": "new-directions_ruins-child.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "6ebb5611",
+      "title": "Businessmen as Lovers",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_businessmen-as-lovers.jpg",
+      "thumbFilename": "new-directions_businessmen-as-lovers.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "7bf5b33b",
+      "title": "The Dog Meows, The Cat Barks",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_the-dog-meows-the-cat-barks.jpg",
+      "thumbFilename": "new-directions_the-dog-meows-the-cat-barks.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "4b85b6a7",
+      "title": "they",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_they.jpg",
+      "thumbFilename": "new-directions_they.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "b3d559cf",
+      "title": "Baron Wenckheim’s Homecoming",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_baron-wenckheims-homecoming.jpg",
+      "thumbFilename": "new-directions_baron-wenckheims-homecoming.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "a4309762",
+      "title": "Journey to the End of the Night",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_journey-to-the-end-of-the-night.jpg",
+      "thumbFilename": "new-directions_journey-to-the-end-of-the-night.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "fd087c4a",
+      "title": "Some Trick",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_some-trick.jpg",
+      "thumbFilename": "new-directions_some-trick.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "d6db15c6",
+      "title": "Star",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_star.jpg",
+      "thumbFilename": "new-directions_star.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "36de2919",
+      "title": "Be With",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_be-with.jpg",
+      "thumbFilename": "new-directions_be-with.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "678dc0d2",
+      "title": "The Complete Stories",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_the-complete-stories.jpg",
+      "thumbFilename": "new-directions_the-complete-stories.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "6eb84d8a",
+      "title": "The Beekeeper",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_the-beekeeper.jpg",
+      "thumbFilename": "new-directions_the-beekeeper.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "9ed1b492",
+      "title": "The World Goes On",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_the-world-goes-on.jpg",
+      "thumbFilename": "new-directions_the-world-goes-on.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "2caa9d57",
+      "title": "Investigations of a Dog & Other Creatures",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_investigations-of-a-dog-other-creatures.jpg",
+      "thumbFilename": "new-directions_investigations-of-a-dog-other-creatures.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "206fe419",
+      "title": "Nineteen Ways of Looking at Wang Wei",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_nineteen-ways-of-looking-at-wang-wei.jpg",
+      "thumbFilename": "new-directions_nineteen-ways-of-looking-at-wang-wei.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "35800baf",
+      "title": "French Love Poems",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_french-love-poems.jpg",
+      "thumbFilename": "new-directions_french-love-poems.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "2b927252",
+      "title": "The Last Samurai",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_the-last-samurai.jpg",
+      "thumbFilename": "new-directions_the-last-samurai.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "16497f48",
+      "title": "Counternarratives",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_counternarratives.jpg",
+      "thumbFilename": "new-directions_counternarratives.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "8911bbec",
+      "title": "Beauty Is a Wound",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_beauty-is-a-wound.jpg",
+      "thumbFilename": "new-directions_beauty-is-a-wound.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "679ce0b4",
+      "title": "The Musical Brain",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_the-musical-brain.jpg",
+      "thumbFilename": "new-directions_the-musical-brain.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "fd204aa5",
+      "title": "Memento Mori",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_memento-mori.jpg",
+      "thumbFilename": "new-directions_memento-mori.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "0d8d27bf",
+      "title": "The Guest Cat",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_the-guest-cat.jpg",
+      "thumbFilename": "new-directions_the-guest-cat.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "a4bec4c4",
+      "title": "Nausea",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_nausea.jpg",
+      "thumbFilename": "new-directions_nausea.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "b57acf8d",
+      "title": "Exercises in Style: 65th Anniversary Edition",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_exercises-in-style-65th-anniversary-edition.jpg",
+      "thumbFilename": "new-directions_exercises-in-style-65th-anniversary-edition.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "a2ca483f",
+      "title": "Visitation",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_visitation.jpg",
+      "thumbFilename": "new-directions_visitation.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "e94b358e",
+      "title": "The Colossus Of Maroussi",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_the-colossus-of-maroussi.jpg",
+      "thumbFilename": "new-directions_the-colossus-of-maroussi.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "f7312525",
+      "title": "Miss Lonelyhearts & The Day of the Locust",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_miss-lonelyhearts-the-day-of-the-locust.jpg",
+      "thumbFilename": "new-directions_miss-lonelyhearts-the-day-of-the-locust.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "d09b6479",
+      "title": "Love Poems",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_love-poems.jpg",
+      "thumbFilename": "new-directions_love-poems.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "f90e55e9",
+      "title": "Nightwood",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_nightwood.jpg",
+      "thumbFilename": "new-directions_nightwood.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "a81cfaac",
+      "title": "New Seeds of Contemplation",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_new-seeds-of-contemplation.jpg",
+      "thumbFilename": "new-directions_new-seeds-of-contemplation.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "62390554",
+      "title": "I Served the King of England",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_i-served-the-king-of-england.jpg",
+      "thumbFilename": "new-directions_i-served-the-king-of-england.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "469d6090",
+      "title": "A Streetcar Named Desire",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_a-streetcar-named-desire.jpg",
+      "thumbFilename": "new-directions_a-streetcar-named-desire.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "1cc8f1c0",
+      "title": "Cat on a Hot Tin Roof",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_cat-on-a-hot-tin-roof.jpg",
+      "thumbFilename": "new-directions_cat-on-a-hot-tin-roof.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "9ea3ff2c",
+      "title": "Residence On Earth",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_residence-on-earth.jpg",
+      "thumbFilename": "new-directions_residence-on-earth.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "8070f0b2",
+      "title": "Amerika",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_amerika.jpg",
+      "thumbFilename": "new-directions_amerika.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "c6e8a2af",
+      "title": "A Coney Island of The Mind (Special Edition)",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_a-coney-island-of-the-mind-special-edition.jpg",
+      "thumbFilename": "new-directions_a-coney-island-of-the-mind-special-edition.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "65387c10",
+      "title": "The Glass Menagerie",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_the-glass-menagerie.jpg",
+      "thumbFilename": "new-directions_the-glass-menagerie.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "beab6e9f",
+      "title": "Glass, Irony, And God",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_glass-irony-and-god.jpg",
+      "thumbFilename": "new-directions_glass-irony-and-god.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "a660023a",
+      "title": "Paterson",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_paterson.jpg",
+      "thumbFilename": "new-directions_paterson.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "1637e2c3",
+      "title": "Maldoror",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_maldoror.jpg",
+      "thumbFilename": "new-directions_maldoror.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "52181822",
+      "title": "Nikolai Gogol",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_nikolai-gogol.jpg",
+      "thumbFilename": "new-directions_nikolai-gogol.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "309db2aa",
+      "title": "Siddhartha",
+      "publisher": "New Directions",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "new-directions_siddhartha.jpg",
+      "thumbFilename": "new-directions_siddhartha.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "845cdf18",
+      "title": "Showing results for:",
+      "publisher": "Scribner",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "scribner_showing-results-for.jpg",
+      "thumbFilename": "scribner_showing-results-for.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "d770838d",
+      "title": "Pafko at the Wall",
+      "publisher": "Scribner",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "scribner_pafko-at-the-wall.jpg",
+      "thumbFilename": "scribner_pafko-at-the-wall.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "fb87f093",
+      "title": "Witchland",
+      "publisher": "Scribner",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "scribner_witchland.jpg",
+      "thumbFilename": "scribner_witchland.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "e34e168e",
+      "title": "In the Gloaming (Story)",
+      "publisher": "Scribner",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "scribner_in-the-gloaming-story.jpg",
+      "thumbFilename": "scribner_in-the-gloaming-story.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "31c3cb14",
+      "title": "On the Equality of All Things",
+      "publisher": "Scribner",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "scribner_on-the-equality-of-all-things.jpg",
+      "thumbFilename": "scribner_on-the-equality-of-all-things.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "d2eaeae8",
+      "title": "Otherwhere",
+      "publisher": "Scribner",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "scribner_otherwhere.jpg",
+      "thumbFilename": "scribner_otherwhere.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "f65851b4",
+      "title": "The Witches of Cambridge",
+      "publisher": "Scribner",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "scribner_the-witches-of-cambridge.jpg",
+      "thumbFilename": "scribner_the-witches-of-cambridge.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "a96ef1c0",
+      "title": "The Barman of the Ritz",
+      "publisher": "Scribner",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "scribner_the-barman-of-the-ritz.jpg",
+      "thumbFilename": "scribner_the-barman-of-the-ritz.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "4d554884",
+      "title": "American Scoundrel",
+      "publisher": "Scribner",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "scribner_american-scoundrel.jpg",
+      "thumbFilename": "scribner_american-scoundrel.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "a02fa15f",
+      "title": "Situated",
+      "publisher": "Scribner",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "scribner_situated.jpg",
+      "thumbFilename": "scribner_situated.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "fb1eec97",
+      "title": "The Jackal",
+      "publisher": "Scribner",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "scribner_the-jackal.jpg",
+      "thumbFilename": "scribner_the-jackal.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "0138af4b",
+      "title": "Mia",
+      "publisher": "Scribner",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "scribner_mia.jpg",
+      "thumbFilename": "scribner_mia.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "dd9ce061",
+      "title": "Hocus Pocus",
+      "publisher": "Scribner",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "scribner_hocus-pocus.jpg",
+      "thumbFilename": "scribner_hocus-pocus.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "e49f551e",
+      "title": "All That Is Left of Life",
+      "publisher": "Scribner",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "scribner_all-that-is-left-of-life.jpg",
+      "thumbFilename": "scribner_all-that-is-left-of-life.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "8d863826",
+      "title": "The Five Seasons Method",
+      "publisher": "Scribner",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "scribner_the-five-seasons-method.jpg",
+      "thumbFilename": "scribner_the-five-seasons-method.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "530830c8",
+      "title": "Majestic Hills",
+      "publisher": "Scribner",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "scribner_majestic-hills.jpg",
+      "thumbFilename": "scribner_majestic-hills.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "978856a5",
+      "title": "Few and Far Between",
+      "publisher": "Scribner",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "scribner_few-and-far-between.jpg",
+      "thumbFilename": "scribner_few-and-far-between.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "767cfd15",
+      "title": "Helpless",
+      "publisher": "Scribner",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "scribner_helpless.jpg",
+      "thumbFilename": "scribner_helpless.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "48a6cbf2",
+      "title": "Don't Look Away",
+      "publisher": "Scribner",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "scribner_dont-look-away.jpg",
+      "thumbFilename": "scribner_dont-look-away.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "3f9ee432",
+      "title": "The Infamous Gilberts",
+      "publisher": "Scribner",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "scribner_the-infamous-gilberts.jpg",
+      "thumbFilename": "scribner_the-infamous-gilberts.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "5b12a51b",
+      "title": "The Magical Game",
+      "publisher": "St. Martin Press",
+      "genres": [
+        "Thriller & Mystery"
+      ],
+      "hiresFilename": "st-martin-press_the-magical-game.jpg",
+      "thumbFilename": "st-martin-press_the-magical-game.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "e8b9edb7",
+      "title": "Witch Season",
+      "publisher": "St. Martin Press",
+      "genres": [
+        "Thriller & Mystery"
+      ],
+      "hiresFilename": "st-martin-press_witch-season.jpg",
+      "thumbFilename": "st-martin-press_witch-season.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "b1c83589",
+      "title": "In Deep Water",
+      "publisher": "St. Martin Press",
+      "genres": [
+        "Thriller & Mystery"
+      ],
+      "hiresFilename": "st-martin-press_in-deep-water.jpg",
+      "thumbFilename": "st-martin-press_in-deep-water.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "468a919c",
+      "title": "Long Island Girls",
+      "publisher": "St. Martin Press",
+      "genres": [
+        "Thriller & Mystery"
+      ],
+      "hiresFilename": "st-martin-press_long-island-girls.jpg",
+      "thumbFilename": "st-martin-press_long-island-girls.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "3813e592",
+      "title": "After Shock",
+      "publisher": "St. Martin Press",
+      "genres": [
+        "Thriller & Mystery"
+      ],
+      "hiresFilename": "st-martin-press_after-shock.jpg",
+      "thumbFilename": "st-martin-press_after-shock.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "11ddbc70",
+      "title": "How to Try Again",
+      "publisher": "St. Martin Press",
+      "genres": [
+        "Thriller & Mystery"
+      ],
+      "hiresFilename": "st-martin-press_how-to-try-again.jpg",
+      "thumbFilename": "st-martin-press_how-to-try-again.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "a10b8516",
+      "title": "The One and the Ninety-Nine",
+      "publisher": "St. Martin Press",
+      "genres": [
+        "Thriller & Mystery"
+      ],
+      "hiresFilename": "st-martin-press_the-one-and-the-ninety-nine.jpg",
+      "thumbFilename": "st-martin-press_the-one-and-the-ninety-nine.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "757d2ecd",
+      "title": "Beach Thriller",
+      "publisher": "St. Martin Press",
+      "genres": [
+        "Thriller & Mystery"
+      ],
+      "hiresFilename": "st-martin-press_beach-thriller.jpg",
+      "thumbFilename": "st-martin-press_beach-thriller.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "d875a1fe",
+      "title": "Alexander",
+      "publisher": "St. Martin Press",
+      "genres": [
+        "Thriller & Mystery"
+      ],
+      "hiresFilename": "st-martin-press_alexander.jpg",
+      "thumbFilename": "st-martin-press_alexander.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "0e04399b",
+      "title": "An Inconvenient Woman",
+      "publisher": "St. Martin Press",
+      "genres": [
+        "Thriller & Mystery"
+      ],
+      "hiresFilename": "st-martin-press_an-inconvenient-woman.jpg",
+      "thumbFilename": "st-martin-press_an-inconvenient-woman.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "822b481f",
+      "title": "Go and Do Likewise",
+      "publisher": "St. Martin Press",
+      "genres": [
+        "Thriller & Mystery"
+      ],
+      "hiresFilename": "st-martin-press_go-and-do-likewise.jpg",
+      "thumbFilename": "st-martin-press_go-and-do-likewise.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "f356c273",
+      "title": "ER",
+      "publisher": "St. Martin Press",
+      "genres": [
+        "Thriller & Mystery"
+      ],
+      "hiresFilename": "st-martin-press_er.jpg",
+      "thumbFilename": "st-martin-press_er.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "8a8da03d",
+      "title": "Cicero's Tongue",
+      "publisher": "St. Martin Press",
+      "genres": [
+        "Thriller & Mystery"
+      ],
+      "hiresFilename": "st-martin-press_ciceros-tongue.jpg",
+      "thumbFilename": "st-martin-press_ciceros-tongue.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "0a3eda84",
+      "title": "Confronting America",
+      "publisher": "St. Martin Press",
+      "genres": [
+        "Thriller & Mystery"
+      ],
+      "hiresFilename": "st-martin-press_confronting-america.jpg",
+      "thumbFilename": "st-martin-press_confronting-america.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "f65496fd",
+      "title": "I Am the Monster Under the Bed",
+      "publisher": "St. Martin Press",
+      "genres": [
+        "Thriller & Mystery"
+      ],
+      "hiresFilename": "st-martin-press_i-am-the-monster-under-the-bed.jpg",
+      "thumbFilename": "st-martin-press_i-am-the-monster-under-the-bed.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "eeb00646",
+      "title": "Fury in Death",
+      "publisher": "St. Martin Press",
+      "genres": [
+        "Thriller & Mystery"
+      ],
+      "hiresFilename": "st-martin-press_fury-in-death.jpg",
+      "thumbFilename": "st-martin-press_fury-in-death.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "466bf1b1",
+      "title": "New and Forthcoming",
+      "publisher": "Transit Books",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "transit-books_new-and-forthcoming.jpg",
+      "thumbFilename": "transit-books_new-and-forthcoming.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "466bf1b1",
+      "title": "New and Forthcoming",
+      "publisher": "Transit Books",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "transit-books_new-and-forthcoming.jpg",
+      "thumbFilename": "transit-books_new-and-forthcoming.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "466bf1b1",
+      "title": "New and Forthcoming",
+      "publisher": "Transit Books",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "transit-books_new-and-forthcoming.jpg",
+      "thumbFilename": "transit-books_new-and-forthcoming.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "466bf1b1",
+      "title": "New and Forthcoming",
+      "publisher": "Transit Books",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "transit-books_new-and-forthcoming.jpg",
+      "thumbFilename": "transit-books_new-and-forthcoming.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "466bf1b1",
+      "title": "New and Forthcoming",
+      "publisher": "Transit Books",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "transit-books_new-and-forthcoming.jpg",
+      "thumbFilename": "transit-books_new-and-forthcoming.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "97beb77f",
+      "title": "March 2027",
+      "publisher": "Transit Books",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "transit-books_march-2027.jpg",
+      "thumbFilename": "transit-books_march-2027.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "ad81194b",
+      "title": "January 2027",
+      "publisher": "Transit Books",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "transit-books_january-2027.jpg",
+      "thumbFilename": "transit-books_january-2027.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "7f39eb88",
+      "title": "October 2026",
+      "publisher": "Transit Books",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "transit-books_october-2026.jpg",
+      "thumbFilename": "transit-books_october-2026.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "7f39eb88",
+      "title": "October 2026",
+      "publisher": "Transit Books",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "transit-books_october-2026.jpg",
+      "thumbFilename": "transit-books_october-2026.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "e52327c6",
+      "title": "September 2026",
+      "publisher": "Transit Books",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "transit-books_september-2026.jpg",
+      "thumbFilename": "transit-books_september-2026.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "e52327c6",
+      "title": "September 2026",
+      "publisher": "Transit Books",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "transit-books_september-2026.jpg",
+      "thumbFilename": "transit-books_september-2026.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "42efa940",
+      "title": "August 2026",
+      "publisher": "Transit Books",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "transit-books_august-2026.jpg",
+      "thumbFilename": "transit-books_august-2026.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "2779a779",
+      "title": "July 2026",
+      "publisher": "Transit Books",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "transit-books_july-2026.jpg",
+      "thumbFilename": "transit-books_july-2026.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "cb9d3500",
+      "title": "June 2026",
+      "publisher": "Transit Books",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "transit-books_june-2026.jpg",
+      "thumbFilename": "transit-books_june-2026.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "d9369fae",
+      "title": "May 2026",
+      "publisher": "Transit Books",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "transit-books_may-2026.jpg",
+      "thumbFilename": "transit-books_may-2026.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "7826cb09",
+      "title": "<img src=\"https://images.squarespace-cdn.com/content/v1/55e1f8f0e4b02b09d51bf3bf/1724434046157-Z3IXMH25R8S3BQLYU21L/9781945492846_FC.jpg\" alt=\"9781945492846_FC.jpg\" />",
+      "publisher": "Transit Books",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "transit-books_img-srchttpsimagessquarespace-cdncomcontentv155e1f8f0e4b02b09d51bf3bf17244340461.jpg",
+      "thumbFilename": "transit-books_img-srchttpsimagessquarespace-cdncomcontentv155e1f8f0e4b02b09d51bf3bf17244340461.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "0b037990",
+      "title": "<img src=\"https://images.squarespace-cdn.com/content/v1/55e1f8f0e4b02b09d51bf3bf/1630603798590-K53L1XTQUUDE8U4C0TCF/9781945492440_FC.jpg\" alt=\"9781945492440_FC.jpg\" />",
+      "publisher": "Transit Books",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "transit-books_img-srchttpsimagessquarespace-cdncomcontentv155e1f8f0e4b02b09d51bf3bf16306037985.jpg",
+      "thumbFilename": "transit-books_img-srchttpsimagessquarespace-cdncomcontentv155e1f8f0e4b02b09d51bf3bf16306037985.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "6794efa5",
+      "title": "<img src=\"https://images.squarespace-cdn.com/content/v1/55e1f8f0e4b02b09d51bf3bf/1775795378917-RGXHXNITA2M1IYJ5SHUN/9798893380422_FC.jpg\" alt=\"9798893380422_FC.jpg\" />",
+      "publisher": "Transit Books",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "transit-books_img-srchttpsimagessquarespace-cdncomcontentv155e1f8f0e4b02b09d51bf3bf17757953789.jpg",
+      "thumbFilename": "transit-books_img-srchttpsimagessquarespace-cdncomcontentv155e1f8f0e4b02b09d51bf3bf17757953789.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "c635e694",
+      "title": "<img src=\"https://images.squarespace-cdn.com/content/v1/55e1f8f0e4b02b09d51bf3bf/1775795320550-9OXS0AGXTYYPWMVQEKEX/9781945492693_FC.jpg\" alt=\"9781945492693_FC.jpg\" />",
+      "publisher": "Transit Books",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "transit-books_img-srchttpsimagessquarespace-cdncomcontentv155e1f8f0e4b02b09d51bf3bf17757953205.jpg",
+      "thumbFilename": "transit-books_img-srchttpsimagessquarespace-cdncomcontentv155e1f8f0e4b02b09d51bf3bf17757953205.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "f9656cdd",
+      "title": "Animalstories",
+      "publisher": "Transit Books",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "transit-books_animalstories.jpg",
+      "thumbFilename": "transit-books_animalstories.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "64e9aa92",
+      "title": "9798893389012_FC.jpg",
+      "publisher": "Transit Books",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "transit-books_9798893389012fcjpg.jpg",
+      "thumbFilename": "transit-books_9798893389012fcjpg.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "828133c1",
+      "title": "9798893380170_FC.jpg",
+      "publisher": "Transit Books",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "transit-books_9798893380170fcjpg.jpg",
+      "thumbFilename": "transit-books_9798893380170fcjpg.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "b3167f1d",
+      "title": "9781945492648_FC.jpg",
+      "publisher": "Transit Books",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "transit-books_9781945492648fcjpg.jpg",
+      "thumbFilename": "transit-books_9781945492648fcjpg.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "b3167f1d",
+      "title": "9781945492648_FC.jpg",
+      "publisher": "Transit Books",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "transit-books_9781945492648fcjpg.jpg",
+      "thumbFilename": "transit-books_9781945492648fcjpg.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "0040dafa",
+      "title": "<img src=\"https://images.squarespace-cdn.com/content/v1/55e1f8f0e4b02b09d51bf3bf/1696825683235-UMJQMG451JCNPDRLWOEX/9781945492754_FC.jpg\" alt=\"9781945492754_FC.jpg\" />",
+      "publisher": "Transit Books",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "transit-books_img-srchttpsimagessquarespace-cdncomcontentv155e1f8f0e4b02b09d51bf3bf16968256832.jpg",
+      "thumbFilename": "transit-books_img-srchttpsimagessquarespace-cdncomcontentv155e1f8f0e4b02b09d51bf3bf16968256832.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "3b92626b",
+      "title": "<img src=\"https://images.squarespace-cdn.com/content/v1/55e1f8f0e4b02b09d51bf3bf/1696611820952-3DEKQTLM0QNVS3RAKOE6/9781945492778_FC.jpg\" alt=\"9781945492778_FC.jpg\" />",
+      "publisher": "Transit Books",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "transit-books_img-srchttpsimagessquarespace-cdncomcontentv155e1f8f0e4b02b09d51bf3bf16966118209.jpg",
+      "thumbFilename": "transit-books_img-srchttpsimagessquarespace-cdncomcontentv155e1f8f0e4b02b09d51bf3bf16966118209.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "034d4f0e",
+      "title": "<img src=\"https://images.squarespace-cdn.com/content/v1/55e1f8f0e4b02b09d51bf3bf/1662741364658-0RXC7LEAR5G5WWIN7WRP/9781945492525_FC.jpg\" alt=\"Migratory Birds\" />",
+      "publisher": "Transit Books",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "transit-books_img-srchttpsimagessquarespace-cdncomcontentv155e1f8f0e4b02b09d51bf3bf16627413646.jpg",
+      "thumbFilename": "transit-books_img-srchttpsimagessquarespace-cdncomcontentv155e1f8f0e4b02b09d51bf3bf16627413646.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "a69cf4e6",
+      "title": "<img src=\"https://images.squarespace-cdn.com/content/v1/55e1f8f0e4b02b09d51bf3bf/1636657825006-EB0Q0V65P6DHXP2ZORB5/9781945492297_FC.jpg\" alt=\"9781945492297_FC.jpg\" />",
+      "publisher": "Transit Books",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "transit-books_img-srchttpsimagessquarespace-cdncomcontentv155e1f8f0e4b02b09d51bf3bf16366578250.jpg",
+      "thumbFilename": "transit-books_img-srchttpsimagessquarespace-cdncomcontentv155e1f8f0e4b02b09d51bf3bf16366578250.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "4c1a62a3",
+      "title": "<img src=\"https://images.squarespace-cdn.com/content/v1/55e1f8f0e4b02b09d51bf3bf/1706646343036-7GS2TWCV0R9S668HCG7O/image-asset.jpeg\" alt=\"\" />",
+      "publisher": "Transit Books",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "transit-books_img-srchttpsimagessquarespace-cdncomcontentv155e1f8f0e4b02b09d51bf3bf17066463430.jpg",
+      "thumbFilename": "transit-books_img-srchttpsimagessquarespace-cdncomcontentv155e1f8f0e4b02b09d51bf3bf17066463430.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "cc714552",
+      "title": "<img src=\"https://images.squarespace-cdn.com/content/v1/55e1f8f0e4b02b09d51bf3bf/1706646892718-YRXA1O2OHHK8UP5COMSY/image-asset.jpeg\" alt=\"\" />",
+      "publisher": "Transit Books",
+      "genres": [
+        "Translation, Poetry & Short Stories"
+      ],
+      "hiresFilename": "transit-books_img-srchttpsimagessquarespace-cdncomcontentv155e1f8f0e4b02b09d51bf3bf17066468927.jpg",
+      "thumbFilename": "transit-books_img-srchttpsimagessquarespace-cdncomcontentv155e1f8f0e4b02b09d51bf3bf17066468927.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "844e1e8f",
+      "title": "Stories, Like Illnesses",
+      "publisher": "Unnamed Press",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "unnamed-press_stories-like-illnesses.jpg",
+      "thumbFilename": "unnamed-press_stories-like-illnesses.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "7d2687f7",
+      "title": "A Calm and Normal Heart: Stories (Paperback)",
+      "publisher": "Unnamed Press",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "unnamed-press_a-calm-and-normal-heart-stories-paperback.jpg",
+      "thumbFilename": "unnamed-press_a-calm-and-normal-heart-stories-paperback.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "2b20d08d",
+      "title": "Kill for Love (Paperback)",
+      "publisher": "Unnamed Press",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "unnamed-press_kill-for-love-paperback.jpg",
+      "thumbFilename": "unnamed-press_kill-for-love-paperback.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "395a907d",
+      "title": "Daytime Moon",
+      "publisher": "Unnamed Press",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "unnamed-press_daytime-moon.jpg",
+      "thumbFilename": "unnamed-press_daytime-moon.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "34417947",
+      "title": "Aqua",
+      "publisher": "Unnamed Press",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "unnamed-press_aqua.jpg",
+      "thumbFilename": "unnamed-press_aqua.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "0623a83d",
+      "title": "Thank You, John",
+      "publisher": "Unnamed Press",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "unnamed-press_thank-you-john.jpg",
+      "thumbFilename": "unnamed-press_thank-you-john.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "9391345d",
+      "title": "Crazy Lucky",
+      "publisher": "Unnamed Press",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "unnamed-press_crazy-lucky.jpg",
+      "thumbFilename": "unnamed-press_crazy-lucky.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "id": "980296d6",
+      "title": "The Untold Story of Books: A Writer's History of Book Publishing",
+      "publisher": "Unnamed Press",
+      "genres": [
+        "Literary & Historical Fiction"
+      ],
+      "hiresFilename": "unnamed-press_the-untold-story-of-books-a-writers-history-of-book-publishing.jpg",
+      "thumbFilename": "unnamed-press_the-untold-story-of-books-a-writers-history-of-book-publishing.webp",
+      "dateDiscovered": "2026-07-01",
+      "lastSeen": "2026-07-01"
+    }
+  ]
 }
