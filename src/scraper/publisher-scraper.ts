@@ -80,7 +80,7 @@ export async function scrapePublisher(config: PublisherConfig, browser: Browser)
     console.log(`[${config.name}] Applying navigation strategy: ${config.navigation ?? 'static'}`);
     const strategy = createNavigationStrategy(config.navigation);
     const navResult = await strategy.navigate(page, config.navigation_options);
-    console.log(`[${config.name}] Navigation strategy complete, pages: ${navResult.pagesLoaded ?? 1}`);
+    console.log(`[${config.name}] Navigation strategy complete, pages: ${navResult.pagesVisited ?? 1}`);
 
     if (navResult.errors.length > 0) {
       console.log(`[${config.name}] Navigation warnings: ${JSON.stringify(navResult.errors)}`);
@@ -428,7 +428,7 @@ async function extractByPatterns(page: Page, config: PublisherConfig): Promise<R
             .replace(/-/g, ' ')
             .replace(/^\d+-/, '') // remove leading ISBN-like prefix
             .trim()
-            .replace(/\b\w/g, (c) => c.toUpperCase());
+            .replace(/\b\w/g, (c: string) => c.toUpperCase());
         }
 
         if (!title || !coverUrl) continue;
